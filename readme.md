@@ -85,15 +85,15 @@ $ py app.py
 ```
 
 The home page will show as followed:
-![image](./images/Home.jpg)
+![image](./images/Home.JPG)
 
 
 Then the user can choose the genre and input the duration and rating based on their preference:
-![image](./images/Input.jpg)
+![image](./images/Input.JPG)
 
 
 When they click recommend, the app will provide 3 US-films that user can watch next time:
-![image](./images/Prediction.jpg)
+![image](./images/Prediction.JPG)
 
 
 **Happy Watching!**
