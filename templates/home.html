@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Netflix and Chill</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+<body background="https://static4.depositphotos.com/1014680/303/i/950/depositphotos_3039676-stock-photo-bw-film-background.jpg" style="text-align:center;">
+    <br>
+    <br>
+    <h1>
+        <img src="https://images.freecreatives.com/wp-content/uploads/2017/10/flat-clapperboard-icon_1063-38.jpg" style="width:20%; height:auto;"/>
+    </h1>
+    <br>
+    <form action="http://localhost:5000/predict" method="POST">
+        <b class="btn btn-info">Genre</b>
+        <br>
+        <select name="genre" id="">
+            <option value="0">Action</option>
+            <option value="1">Adventure</option>
+            <option value="2">Animation</option>
+            <option value="3">Biblical</option>
+            <option value="4">Biography</option>
+            <option value="5">Comedy</option>
+            <option value="6">Crime</option>
+            <option value="7">Documentary</option>
+            <option value="8">Drama</option>
+            <option value="9">Experimental</option>
+            <option value="10">Fantasy</option>
+            <option value="11">Gangster</option>
+            <option value="12">Grotesque</option>
+            <option value="13">History</option>
+            <option value="14">Horror</option>
+            <option value="15">Melodrama</option>
+            <option value="16">Musical</option>
+            <option value="17">Mythology</option>
+            <option value="18">Noir</option>
+            <option value="19">Romantic</option>
+            <option value="20">Super-hero</option>
+            <option value="21">Sport</option>
+            <option value="22">Spy</option>
+            <option value="23">Thriller</option>
+            <option value="24">War</option>
+            <option value="25">Western</option>
+            
+        </select>
+        <br>
+        <br>
+        <b class="btn btn-info">Duration (in mins)</b>
+        <br>
+        <input type="text" name="duration" placeholder="How long is the duration?" />
+        <br>
+        <br>
+        <b class="btn btn-info">Rating (1-10)</b>
+        <br>
+        <input type="text" name="rating" placeholder="How high is the rating?" />
+        <br>
+        <br>
+        <input type="submit" class="btn btn-warning" value="Recommend" />
+    </form>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
