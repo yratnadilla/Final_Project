@@ -39,11 +39,11 @@ When the data is ready, a quick analysis with graph visualization is conducted t
 
 Data is analyzed with the **Genre** and **Country** as the main pivots, which is deemed to be the most important uniqueness for user with the results as following chart:
 
-![image] (./images/Genre.jpg)
+![image](./images/Genre.jpg)
 
 From the first chart, it can be seen that there data is heavily skewed to 'Drama' category, which has more than 6,000 observations followed by 'Comedy' category. In that sense, the model might give more relevant recommendations for those two genres but less relevants for the rest of genres.
 
-![image] (./images/Country.jpg)
+![image](./images/Country.jpg)
 
 From the Film Count by Country chart, it is shown that the number of US-based films are overwhelmingly dominating, even reaching more than 21,000 data inputs. US-films category itself can already be a good portion of smaller datasets to build and run the model, hence in the next process we are focusing on this category.
 
